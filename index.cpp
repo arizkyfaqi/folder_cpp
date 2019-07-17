@@ -17,7 +17,7 @@ int main(){
   cout << "masukan nilai : ";
   cin >> b;
   cout << "nilai yang anda masukan adalah : ";
-  cout << b << endl;
+  cout << b << endl; 
 
   cin.get();
   return 0;
