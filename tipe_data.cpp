@@ -24,7 +24,6 @@ int main()
 		boolean
 		bool = 1 byte
 
-			
 
 	
 	*/
@@ -34,7 +33,6 @@ int main()
 	cout << sizeof(a) << " byte (adalah memory yang terpakai pada tipe data)" << endl;
 	cout << "nilai maksimal  : " << numeric_limits<char>::max() << endl;
 	cout << "nilai minimal  : " << numeric_limits<char>::min() << endl;
-
 
 	cin.get();
 	return 0;
