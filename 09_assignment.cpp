@@ -13,13 +13,13 @@ int main()
 	cout << "ditambah 3 menjadi " << a << endl;
 
 	a -= 3;
-	cout << "ditambah 3 menjadi " << a << endl;
+	cout << "dikurang 3 menjadi " << a << endl;
 
 	a /= 3;
-	cout << "ditambah 3 menjadi " << a << endl;
+	cout << "dibagi 3 menjadi " << a << endl;
 
 	a *= 3;
-	cout << "ditambah 3 menjadi " << a << endl;
+	cout << "dikali 3 menjadi " << a << endl;
 
 
 	cin.get();
