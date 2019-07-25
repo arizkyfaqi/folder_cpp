@@ -7,9 +7,20 @@ int main()
 	//assigment
 	int a = 10;
 
-	a = a + 3;
+	cout << "nilai awal dari a adalah : " << a << endl;
 
-	cout << a << endl;
+	a += 3;
+	cout << "ditambah 3 menjadi " << a << endl;
+
+	a -= 3;
+	cout << "ditambah 3 menjadi " << a << endl;
+
+	a /= 3;
+	cout << "ditambah 3 menjadi " << a << endl;
+
+	a *= 3;
+	cout << "ditambah 3 menjadi " << a << endl;
+
 
 	cin.get();
 	return 0;
