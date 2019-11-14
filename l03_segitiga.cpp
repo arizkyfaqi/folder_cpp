@@ -16,5 +16,17 @@ int main()
 		}
 		cout << endl;
 	}
+
+	cout << "Pola 2 \n";
+	for (int i = 1; i <= n; ++i){
+		cout << i;
+		for (int j = n; j <= i; ++j){
+			cout << j;
+			cout << "*";
+		}
+		cout << endl;
+	}
+
+	cin.get();
 	return 0;
 }
