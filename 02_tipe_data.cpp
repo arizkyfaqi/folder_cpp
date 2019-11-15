@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+
 	using namespace std;
 
 int main()
@@ -23,8 +24,6 @@ int main()
 
 		boolean
 		bool = 1 byte
-
-
 	
 	*/
 	char a = 'a';
