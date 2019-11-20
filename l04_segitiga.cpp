@@ -21,6 +21,23 @@ int main(){
 
 		cout << endl;
 	}
+
+	cout << "\nWhile\n";
+	//deklarasi
+	int o,p,l;
+	//inisialisasi
+	o=1;
+
+	while(o<=n){
+		
+		while(p<=n){
+			cout << "*";
+			p++;
+		}
+		cout << endl;
+		o++;
+	}
+
 	cin.get();
 	return 0;
 }
