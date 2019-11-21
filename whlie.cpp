@@ -3,22 +3,37 @@ using namespace std;
 
 int main()
 {
-	int i,a,b,n;
-	i=1;
+	int i,a,n;
 	cout << "Segitiga siku-siku menggunakan while" << endl;
 	cout << "Masukan nilai :";
-	cin >> n;
-	while(i<=n){
-		// cout << i;
-		a=i;
-		while(a<=n){
-			// cout << a;
+	i=1;
+	cin >> n >> endl;
+	cout >> "Pola 1 \n";
+
+
+	while (i<=n){
+		a=1;
+		while (a<=i){
 			cout << "*";
 			a++;
 		}
 		cout << endl;
 		i++;
 	}
+
+	cout >> "Pola 2 \n";
+
+
+	while (i<=n){
+		a=1;
+		while (a<=i){
+			cout << "*";
+			a++;
+		}
+		cout << endl;
+		i++;
+	}
+
 	cin.get();	
 	return 0;
 }
