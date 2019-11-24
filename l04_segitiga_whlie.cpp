@@ -3,10 +3,11 @@ using namespace std;
 
 int main()
 {
-	int i,a,n,c,x;
+	int i,a,n,c,x,o;
 	cout << "Segitiga siku-siku menggunakan while" << endl;
 	cout << "Masukan nilai :";
 	i=1;
+	o=2;
 	cin >> n; 
 	// cout << "Pola 1 \n";
 
@@ -56,24 +57,28 @@ int main()
 		i++;
 	}
 
-	cout << "ploa 4\n";
-
-	while (i<=n){
+	while (o<=n){
 
 		x=1;
-		while (x<i){
+		while (x<o){
 			cout << " ";
 			x++;
 		}
 		c=n;
-		while (c>=i){
+		while (c>=o){
+			// cout << c;
+			cout << "*";
+			c--;
+		}
+
+		while (c>=(o*2-n)){
 			cout << "*";
 			c--;
 		}
 
 
 		cout << endl;
-		i++;
+		o++;
 	}
 
 
