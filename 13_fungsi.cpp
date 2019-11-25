@@ -1,6 +1,6 @@
-//include library
+//include standard library
 #include <iostream>
-//include library math
+//include standard library math
 #include <cmath>
 using namespace std;
 
