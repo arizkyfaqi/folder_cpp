@@ -14,8 +14,8 @@ int a = 5;
 
 /*
 	
-	tanda * digunakan untuk menampung alamat varible;
-	tanda &(nama_varible) di gunakan untuk menampilkan alamat varible.
+	tanda *(pointer) digunakan untuk menampung alamat varible;
+	tanda &(nama_varible) di gunakan untuk menampilkan/mengambil alamat varible.
 
 */
 
